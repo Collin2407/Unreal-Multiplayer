@@ -86,6 +86,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint8 bUsingMotionControllers : 1;
 
+	UPROPERTY(BlueprintReadOnly, Category = "GamePlay")
+	bool IsCarryingObjective;
 protected:
 	
 	/** Fires a projectile. */
